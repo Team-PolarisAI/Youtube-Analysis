@@ -96,8 +96,8 @@ query = st.sidebar.text_input('検索クエリを入力してください', 'ヒ
 st.sidebar.write('### 閾値の設定')
 threshold = st.sidebar.slider('登録者数の閾値', 100, 1000000, 500000)
 
-st.sidebar.write('### 取得する動画数')
-maxresults = st.sidebar.slider('取得する動画の数', 1, 50, 10)
+st.sidebar.write('### 取得する動画の最大件数')
+maxresults = st.sidebar.slider('最大件数', 1, 50, 10)
 
 st.write('### 選択中のパラメータ')
 st.markdown(
